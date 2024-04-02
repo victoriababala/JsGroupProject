@@ -36,17 +36,17 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Driver Standings</a>
+            <a class="nav-link" href="#">Drivers Standings</a>
           </li>
           <li class="nav-item">
             <a class="btn nav-link" id="teamStandingsBtn"
-              >Constructor Standings</a
+              >Constructors Standings</a
             >
           </li>
         </ul>
       </div>
     </nav>
-    <div class="container text-center">
+    <div class="container text-center" id = "title">
       <h1>
         Discover information about <br />
         2024 FIA FORMULA ONE WORLD CHAMPIONSHIP
@@ -115,7 +115,11 @@
         </a>
       </div>
     </div>
-    <div id="teamStandingsContainer"></div>
+    <div class="row mt-4 ">
+      <div class="col" id="teamStandingsContainer">
+        <!-- Team standings will be loaded here -->
+      </div>
+    </div>
 
     <footer
       class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"

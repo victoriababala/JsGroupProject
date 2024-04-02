@@ -2,20 +2,22 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
-  margin-bottom: 10px;
-}
-.team-info h3 {
-  margin-top: 0;
-  font-size: 20px;
-}
-.team-info p {
-  margin-bottom: 5px;
-}
-.team-logo {
-  max-width: 100px; /* Adjust the size of the team logos */
+  margin-bottom: 20px;
 }
 
+.team-info h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.team-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.team-logo,
 .car-image {
-  max-width: 200px; /* Adjust the size of the car images */
+  max-width: 100px;
   margin-top: 10px;
 }
