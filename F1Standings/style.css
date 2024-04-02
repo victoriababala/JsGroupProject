@@ -11,9 +11,11 @@
 .team-info p {
   margin-bottom: 5px;
 }
-.team-logo,
+.team-logo {
+  max-width: 100px; /* Adjust the size of the team logos */
+}
+
 .car-image {
-  max-width: 100px;
-  display: block;
-  margin-top: 5px;
+  max-width: 200px; /* Adjust the size of the car images */
+  margin-top: 10px;
 }
