@@ -1,0 +1,19 @@
+.team-info {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.team-info h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
+.team-info p {
+  margin-bottom: 5px;
+}
+.team-logo,
+.car-image {
+  max-width: 100px;
+  display: block;
+  margin-top: 5px;
+}
