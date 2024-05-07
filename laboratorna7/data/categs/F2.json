@@ -1,0 +1,59 @@
+{
+  "catalog_items": [
+    {
+      "id": 21,
+      "short_name": "F21",
+      "name": "Item F21",
+      "description": "One",
+      "price_retail": 129,
+      "price_wholesale": 199.0,
+      "amount_retail": null,
+      "amount_wholesale": "8"
+    },
+    {
+      "id": 22,
+      "short_name": "F22",
+      "name": "Item F22",
+      "description": "Two",
+      "price_retail": 79,
+      "price_wholesale": 1098,
+      "amount_retail": "2+ pos",
+      "amount_wholesale": "4"
+    },
+    {
+      "id": 23,
+      "short_name": "F23",
+      "name": "Item F23",
+      "description": "Three",
+      "price_retail": 143,
+      "price_wholesale": 805,
+      "amount_retail": "2+ pos",
+      "amount_wholesale": "6"
+    },
+    {
+      "id": 24,
+      "short_name": "F24",
+      "name": "Item F24",
+      "description": "Four",
+      "price_retail": 248,
+      "price_wholesale": 609,
+      "amount_retail": "2+ pos",
+      "amount_wholesale": "7"
+    },
+    {
+      "id": 25,
+      "short_name": "F25",
+      "name": "Item F25",
+      "description": "Five",
+      "price_retail": 120,
+      "price_wholesale": 1600,
+      "amount_retail": "2+ pos",
+      "amount_wholesale": "4"
+    }
+  ],
+  "category": {
+    "short_name": "F2",
+    "name": "Category F2",
+    "special_instructions": "Some different important info about F2 category."
+  }
+}

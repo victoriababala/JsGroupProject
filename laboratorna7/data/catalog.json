@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "short_name": "F1",
+    "name": "Category-F1",
+    "special_instructions": "Info about Category-F1",
+    "url": "data/categs/F1.json"
+  },
+  {
+    "id": 2,
+    "short_name": "F2",
+    "name": "Category-F2",
+    "special_instructions": "Info about Category-F2",
+    "url": "data/categs/F2.json"
+  },
+  {
+    "id": 3,
+    "short_name": "F3",
+    "name": "Category-F3",
+    "special_instructions": "Info about Category-F3",
+    "url": "data/categs/F3.json"
+  }
+]

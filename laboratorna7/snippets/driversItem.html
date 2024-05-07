@@ -1,0 +1,25 @@
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
+  <div class="card p-0 shadow-lg rounded" style="width: 100%">
+    <div class="card-header position-relative">
+      <p class="card-text text-start mb-0 fw-bold position-absolute top-0 start-0 p-3" style="font-size: 26px">
+        {{rank}}
+      </p>
+      <div class="d-flex justify-content-between mt-3">
+        <div class="team-info" style="margin-top: 30px; margin-left: auto">
+          <img src="{{numberlogo}}" alt="{{drivername}}" style="max-height: 40px" />
+          <img src="{{countryflag}}" alt="{{drivername}} Flag" style="max-height: 20px; margin-left: 5px;" />
+          <span class="text-black">{{drivername}}</span>
+        </div>
+        <p class="card-text text-end fw-bold mb-0 position-absolute top-0 end-0 p-2">
+          {{points}} pts
+        </p>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center mt-3">
+      <img src="{{driverimage}}" class="card-img-top img-fluid" alt="{{drivername}}" />
+    </div>
+    <div class="card-body text-center">
+      <a href="#" class="btn   btn-outline-dark" onclick="$ns.loadDriverDetails('{{drivername}}');">View driver information</a>
+    </div>
+  </div>
+</div>

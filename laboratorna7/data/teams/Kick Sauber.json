@@ -1,0 +1,20 @@
+{
+  "logo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/kick%20sauber.png",
+  "fullTeamName": "Stake F1 Team Kick Sauber",
+  "base": "Hinwil, Switzerland",
+  "teamChief": "Alessandro Alunni Bravi",
+  "technicalChief": "James Key",
+  "chassis": "C44",
+  "powerUnit": "Ferrari",
+  "firstTeamEntry": "1993",
+  "worldChampionships": "N/A",
+  "highestRaceFinish": "1 (x1)",
+  "polePositions": "1",
+  "fastestLaps": "7",
+  "driver1Image": "https://media.formula1.com/content/dam/fom-website/drivers/2024Drivers/bottas.jpg.img.1920.medium.jpg/1712849017676.jpg",
+  "driver1Number": 77,
+  "driver1Name": "Valtteri Bottas",
+  "driver2Image": "https://media.formula1.com/content/dam/fom-website/drivers/2024Drivers/zhou.jpg.img.1920.medium.jpg/1712849016802.jpg",
+  "driver2Number": 24,
+  "driver2Name": "Zhou  Guanyu"
+}

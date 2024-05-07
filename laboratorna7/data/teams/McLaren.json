@@ -1,0 +1,20 @@
+{
+  "logo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mclaren.jpg",
+  "fullTeamName": "McLaren Formula 1 Team",
+  "base": "Woking, United Kingdom",
+  "teamChief": "Andrea Stella",
+  "technicalChief": "Peter Prodromou / Neil Houldey",
+  "chassis": "MCL38",
+  "powerUnit": "Mercedes",
+  "firstTeamEntry": "1966",
+  "worldChampionships": "8",
+  "highestRaceFinish": "1 (x183)",
+  "polePositions": "157",
+  "fastestLaps": "165",
+  "driver1Image": "https://media.formula1.com/content/dam/fom-website/drivers/2024Drivers/norris.jpg.img.1920.medium.jpg/1712849019875.jpg",
+  "driver1Number": 4,
+  "driver1Name": "Lando Norris",
+  "driver2Image": "https://media.formula1.com/content/dam/fom-website/drivers/2024Drivers/piastri.jpg.img.1920.medium.jpg/1712849014893.jpg",
+  "driver2Number": 81,
+  "driver2Name": "Oscar Piastri"
+}
