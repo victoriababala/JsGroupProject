@@ -7,7 +7,7 @@
   const teamsTitleHtml = "snippets/teamsTitle.html";
   const driversTitleHtml = "snippets/driversTitle.html";
   const teamHtml = "snippets/teamItem.html";
-  const driversHtml = "snippets/driversItem.html"; // Updated snippet for team card
+  const driversHtml = "snippets/driversItem.html";
   const teamItemsUrl = "data/teams/";
   const driverItemsUrl = "data/drivers/";
   const catalogItemsTitleHtml = "snippets/productTitle.html";
@@ -30,7 +30,7 @@
     return string;
   };
 
-  document.addEventListener("DOMContentLoaded", function (event) {
+  document.addEventListener("DOMContentLoaded", function () {
     showLoading("#mainHome");
     $ajaxUtils.sendGetRequest(
       homeHtml,
@@ -68,8 +68,7 @@
         $ajaxUtils.sendGetRequest(
           teamHtml,
           function (teamCardHtml) {
-            //switchCatalogToActive();
-            switchToActive("linkCategory");
+            switchToActive("LinkDrivers");
             const teamsViewHtml = buildTeamsViewHtml(
               teams,
               teamsTitleHtml,
@@ -162,7 +161,6 @@
         $ajaxUtils.sendGetRequest(
           driverDetailsItemHtml,
           function (driverDetailsItemHtml) {
-            //switchCatalogToActive();
             const catalogItemsViewHtml = buildDriverItemsViewHtml(
               categoryCatalogItems,
               catalogItemTitleHtml,
@@ -183,8 +181,6 @@
         $ajaxUtils.sendGetRequest(
           teamDetailsItemHtml,
           function (teamDetailsItemHtml) {
-            //switchCatalogToActive();
-            switchToActive("linkCategory");
             const catalogItemsViewHtml = buildTeamItemsViewHtml(
               categoryCatalogItems,
               catalogItemTitleHtml,
@@ -306,59 +302,18 @@
     return finalHtml;
   }
 
-  const switchToActive = function(linkId) {
+  const switchToActive = function (linkId) {
     // Remove 'active' class from all nav links
     const navLinks = document.querySelectorAll(".nav-link");
-    navLinks.forEach(link => {
+    navLinks.forEach((link) => {
       link.classList.remove("active");
     });
-  
+
     // Add 'active' class to the selected link
     const selectedLink = document.querySelector(`#${linkId}`);
     selectedLink.classList.add("active");
   };
-  const switchCatalogToActive = function () {
-    let classes = document.querySelector("#linkHome").className;
-    classes = classes.replace(new RegExp("active", "g"), "");
-    document.querySelector("#linkHome").className = classes;
 
-    classes = document.querySelector("#linkCategory").className;
-    if (classes.indexOf("active") === -1) {
-      classes += " active";
-      document.querySelector("#linkCategory").className = classes;
-    }
-  };
-  const switchDriversToActive = function () {
-    let classes = document.querySelector("#linkHome").className;
-    classes = classes.replace(new RegExp("active", "g"), "");
-    document.querySelector("#linkHome").className = classes;
-
-    classes = document.querySelector("#linkDrivers").className;
-    if (classes.indexOf("active") === -1) {
-      classes += " active";
-      document.querySelector("#linkDrivers").className = classes;
-    }
-  };
-  const switchHomeToActive = function () {
-    let classes = document.querySelector("#linkCategory").className;
-    classes = classes.replace(new RegExp("active", "g"), "");
-    document.querySelector("#linkCategory").className = classes;
-
-    classes = document.querySelector("#linkHome").className;
-    if (classes.indexOf("active") === -1) {
-      classes += " active";
-      document.querySelector("#linkHome").className = classes;
-    }
-  };
-
-  // ns.loadSpecials = function (categoryShort) {
-  //   showLoading("#mainHome");
-  //   const randomCategory = ["F1", "F2", "F3"][Math.floor(Math.random() * 3)];
-  //   $ajaxUtils.sendGetRequest(
-  //     teamItemsUrl + randomCategory + ".json",
-  //     buildAndShowTeamItemsHTML
-  //   );
-  // };
   ns.loadAboutUsPage = function () {
     showLoading("#mainHome");
     $ajaxUtils.sendGetRequest(
@@ -413,7 +368,7 @@
 
       // Create a link element for downloading the random image
       var link = document.createElement("a");
-      link.href = "img/pic" + randomNumber + ".jpg"; // Assuming images are named pic1.jpg to pic6.jpg
+      link.href = "img/pic" + randomNumber + ".jpg";
       link.download = "pic" + randomNumber + ".jpg";
       link.style.display = "none"; // Hide the link
 

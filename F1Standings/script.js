@@ -5,7 +5,7 @@ $(document).ready(function () {
       type: "GET",
       dataType: "json",
       success: function (data) {
-        var standingsHTML = '<div class="container">';
+        let standingsHTML = '<div class="container">';
         standingsHTML += '<h1 class="mt-4 text-center">Teams Standings</h1>';
         $.each(data, function (index, team) {
           standingsHTML += '<div class="row team-info shadow border p-3 mb-4 rounded border-secondary ">';
@@ -28,12 +28,12 @@ $(document).ready(function () {
             team.name +
             ' Car" class="car-image img-fluid">';
           standingsHTML += "</div>";
-          standingsHTML += "</div>"; // Close row
+          standingsHTML += "</div>"; 
         });
-        standingsHTML += "</div>"; // Close container
+        standingsHTML += "</div>"; 
         $("#teamStandingsContainer").html(standingsHTML);
         $("#carouselExampleControls").hide();
-        $("#title").hide(); // Hide the title
+        $("#title").hide(); 
       },
     });
   });
