@@ -1,0 +1,20 @@
+{
+  "logo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes.jpg",
+  "fullTeamName": "Mercedes-AMG PETRONAS F1 Team",
+  "base": "Brackley, United Kingdom",
+  "teamChief": "Toto Wolff",
+  "technicalChief": "James Allison",
+  "chassis": "W15",
+  "powerUnit": "Mercedes",
+  "firstTeamEntry": "1970",
+  "worldChampionships": "8",
+  "highestRaceFinish": "1 (x116)",
+  "polePositions": "129",
+  "fastestLaps": "96",
+  "driver1Image": "https://media.formula1.com/content/dam/fom-website/drivers/2024Drivers/hamilton.jpg.img.1920.medium.jpg/1712849018248.jpg",
+  "driver1Number": 44,
+  "driver1Name": "Lewis Hamilton",
+  "driver2Image": "https://media.formula1.com/content/dam/fom-website/drivers/2024Drivers/russell.jpg.img.1920.medium.jpg/1712849015239.jpg",
+  "driver2Number": 63,
+  "driver2Name": "George Russell"
+}

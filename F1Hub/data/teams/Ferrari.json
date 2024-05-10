@@ -1,0 +1,20 @@
+{
+  "logo": "https://media.formula1.com/content/dam/fom-website/teams/Ferrari/logo-ferrari-18%20.jpg",
+  "fullTeamName": "Scuderia Ferrari",
+  "base": "Maranello, Italy",
+  "teamChief": "Frédéric Vasseur",
+  "technicalChief": "Enrico Cardile / Enrico Gualtieri",
+  "chassis": "SF-24",
+  "powerUnit": "Ferrari",
+  "firstTeamEntry": "1950",
+  "worldChampionships": "16",
+  "highestRaceFinish": "1 (x245)",
+  "polePositions": "249",
+  "fastestLaps": "261",
+  "driver1Image": "https://media.formula1.com/content/dam/fom-website/drivers/2024Drivers/leclerc.jpg.img.1920.medium.jpg/1712849019299.jpg",
+  "driver1Number": 16,
+  "driver1Name": "Charles leclerc",
+  "driver2Image": "https://media.formula1.com/content/dam/fom-website/drivers/2024Drivers/sainz.jpg.img.1920.medium.jpg/1712849015816.jpg",
+  "driver2Number": 55,
+  "driver2Name": "Carlos Sainz"
+}

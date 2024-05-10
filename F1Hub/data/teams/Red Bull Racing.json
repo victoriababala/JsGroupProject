@@ -1,0 +1,20 @@
+{
+  "logo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/red%20bull.jpg",
+  "fullTeamName": "Oracle Red Bull Racing",
+  "base": "Milton Keynes, United Kingdom",
+  "teamChief": "Christian Horner",
+  "technicalChief": "Pierre Waché",
+  "chassis": "RB20",
+  "powerUnit": "Honda RBPT",
+  "firstTeamEntry": "1997",
+  "worldChampionships": "6",
+  "highestRaceFinish": "1 (x117)",
+  "polePositions": "101",
+  "fastestLaps": "97",
+  "driver1Image": "https://media.formula1.com/content/dam/fom-website/drivers/2024Drivers/verstappen.jpg.img.1920.medium.jpg/1712849016509.jpg",
+  "driver1Number": 1,
+  "driver1Name": "Max Verstappen",
+  "driver2Image": "https://media.formula1.com/content/dam/fom-website/drivers/2024Drivers/perez.jpg.img.1920.medium.jpg/1712849014374.jpg",
+  "driver2Number": 11,
+  "driver2Name": "Sergio Perez"
+}
