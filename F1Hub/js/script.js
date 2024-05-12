@@ -23,6 +23,10 @@
     let html = '<div id="loader" class="loader"></div>';
     insertHtml(selector, html);
   };
+  const showLoadingGame = function (selector) {
+    let html = '  <div id="app"> <div id="map"></div> </div>';
+    insertHtml(selector, html);
+  };
 
   const insertProperty = function (string, propName, propValue) {
     const propToReplace = `{{${propName}}}`;
@@ -49,6 +53,14 @@
     showLoading("#mainHome");
     $ajaxUtils.sendGetRequest(allDriversUrl, buildAndShowDriversHTML);
   };
+  ns.loadGame = function () {
+    showLoading("#mainHome");
+    load();
+  };
+  function load(){
+    showLoadingGame("#mainHome");
+    GameLoad.load();
+  }
   ns.loadHome = function () {
     showLoading("#mainHome");
     $ajaxUtils.sendGetRequest(

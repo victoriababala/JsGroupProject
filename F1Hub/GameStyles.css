@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('img/GameImages/back.jpg');
+    animation: moveIt 5s linear infinite;
+    animation-play-state: running;
+}
+
+@keyframes moveIt {
+  from {background-position: top ;}
+  to {background-position: bottom ;}
+}
+
+.row {
+    display: flex;
+}
+
+
+.road {
+    background-color: #636164;
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+
+.parent-road {
+    display: flex;
+}
+
+.off-road {
+    height: 100%;
+}
+
+
+.trap {
+    object-fit: contain;
+    transform: scale(2)
+}
+
+#player {
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 50%;
+    content: url('img/GameImages/f1.2.car.png');
+}
+
+.gold {
+  margin-top: 100px;
+  margin-left: 20px;
+   display: block;
+    content: url('img/GameImages/gold.png');
+    object-fit: contain;
+    transform: scale(2)
+ 
+}
+
+.gold-counter {
+    height: 50px;
+    display: inline-block;
+    margin-top: 80px;
+
+}
+
+.score {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+.menu {
+    text-align: center;
+    color: rgb(14, 18, 46);
+    z-index: 2;
+    font-weight: 500;
+    font-size: min(5vh, 5vw);
+    height: 100%;
+    background-color: antiquewhite;
+    width: fit-content;
+    text-align: center;
+    padding: 50px;
+    border-radius: 4%;
+}
+
+.outer-menu {
+    display: flex;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100vw;
+    padding-top: calc(100vh * 0.1);
+    padding-bottom: calc(100vh * 0.1);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu .title {
+    font-weight: 1000;
+    font-size: min(10vh, 10vw);
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    border-bottom: 2px solid;
+}
+
+
+.menu .play-button {
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+    position: absolute;
+    bottom: calc(100vh * 0.15);
+    left: 50%;
+    transform: translateX(-50%);
+} 
+
+.menu .play-button:hover {
+    text-decoration: underline;
+}
+
+
+.sensitivity-button {
+    cursor: pointer;
+    padding: 0 10px 0 10px;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+
+.sensitivity-button:hover {
+    background-color: #ad9e9e;
+}
+.controls-container {
+  display: none;
+
+  }
+  #pause-button {
+    position: absolute; /* Position the button absolutely */
+    top: 10px; /* Set the top position to 10px */
+    left: 10px; /* Set the left position to 10px */
+    background-color: #0a4a0c; /* Set the background color */
+    color: white; /* Set the text color */
+    border: none; /* Remove the default border */
+    cursor: pointer; /* Make the button clickable */
+    width: 60px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 80px;
+
+    
+
+  }
+
+  #navigation-box {
+  color:rgb(137, 0, 0);
+  }
+
+
+@media (max-width: 767px) {
+    #player {
+        width: 60px;
+        height: 50px;
+       
+    }
+
+    #navigation-box {
+
+      display: none; 
+    }
+    
+
+.controls-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 50px); /* Adjust columns as needed */
+    grid-template-rows: repeat(3, 50px); /* Adjust rows as needed */
+    gap: 10px;
+    }
+  
+  .controls-container button {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 60px; 
+  }
+  
+  #left-button {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  #right-button {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  
+  #up-button {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  #down-button {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .controls-container button:hover {
+    background-color: #e6e6e6;
+  }
+
+  .controls-container button:active {
+    background-color: #cccccc;
+  }
+  .trap {
+    transform: scale(0.9)
+}
+
+}
+
+
