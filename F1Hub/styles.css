@@ -19,3 +19,37 @@ body {
     transform: rotate(360deg);
   }
 }
+.team-info{
+  margin-top: 30px;
+  margin-left: auto;
+}
+.numberlogo{
+  max-height: 40px;
+  
+}
+.countryflag{
+  max-height: 20px;
+  margin-left: 5px
+}
+.helmetimage{
+  max-height: 150px;
+}
+/* driversitem */
+.textdriver{
+   font-size: 26px;
+}
+.driveritemimage{
+  width: 100%";
+}
+
+/* home */
+
+.homedriverimage{
+  max-height: 400px;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: calc(1.5rem + 3vw);
+}
+
