@@ -521,6 +521,7 @@ parentRoadDiv.classList.add("parent-road");
 leftDiv.style.width = gameRow.leftSide * 100 + "%";
 parentRoadDiv.style.width = gameRow.road * 100 + "%";
 rightDiv.style.width = gameRow.rightSide * 100 + "%";
+// rightDiv.style.width =  100 + "%";
 rowDiv.style.height = window.innerHeight / game.ROW_COUNT + "px";
 
 parentRoadDiv.appendChild(roadLeftTriangle);
