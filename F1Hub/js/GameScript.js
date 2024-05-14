@@ -310,6 +310,7 @@ game.isOver = true;
 menuTitle.innerHTML = "Game over";
 playGame.innerHTML = "play";
 bestScore = bestScore < game.score ? game.score : bestScore;
+pauseButton.textContent = "|>";
 setCookie("bestScore", bestScore);
 setCookie("gamesPlayed", ++gamesPlayed);
 
@@ -323,6 +324,8 @@ gamesPlayedDiv.innerHTML = gamesPlayed;
 outerMenu.style.display = "flex";
 game.isPaused = true;
 app.style.animationPlayState = "paused"; 
+pauseButton.textContent = "|>";
+
 }
 
 
@@ -331,6 +334,7 @@ outerMenu.style.display = "none";
 game.isPaused = false;
 app.style.animationPlayState = "running";
 menuTitle.innerHTML = "Racing game";
+pauseButton.textContent = "||";
 }
 
 
