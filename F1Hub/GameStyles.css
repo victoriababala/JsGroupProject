@@ -238,8 +238,15 @@
 
 @media (max-width: 576px)  { 
   .trap {
-    transform: scale(0.5)
+    transform: scale(0.7)
 }
+#player {
+  width: 60px;
+  height: 50px;
+
+ 
+}
+
 
 }
 
