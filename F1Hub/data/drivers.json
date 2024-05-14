@@ -2,7 +2,7 @@
   {
     "id": 0,
     "rank": "1",
-    "points": "118",
+    "points": "136",
     "drivername": "Max Verstappen",
     "teamname": "Red Bull Racing",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Netherlands.jpg",
@@ -12,7 +12,7 @@
   {
     "id": 1,
     "rank": "2",
-    "points": "91",
+    "points": "103",
     "drivername": "Sergio Perez",
     "teamname": "Red Bull Racing",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Mexico.jpg",
@@ -22,7 +22,7 @@
   {
     "id": 2,
     "rank": "3",
-    "points": "83",
+    "points": "98",
     "drivername": "Charles Leclerc",
     "teamname": "Ferrari",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Monaco.jpg",
@@ -32,7 +32,7 @@
   {
     "id": 3,
     "rank": "4",
-    "points": "73",
+    "points": "83",
     "drivername": "Carlos Sainz",
     "teamname": "Ferrari",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Spain.jpg",
@@ -42,7 +42,7 @@
   {
     "id": 4,
     "rank": "5",
-    "points": "58",
+    "points": "83",
     "drivername": "Lando Norris",
     "teamname": "McLaren",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "rank": "7",
-    "points": "33",
+    "points": "37",
     "drivername": "George Russell",
     "teamname": "Mercedes",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg",
@@ -72,7 +72,7 @@
   {
     "id": 7,
     "rank": "8",
-    "points": "31",
+    "points": "33",
     "drivername": "Fernando Alonso",
     "teamname": "Aston Martin",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Spain.jpg",
@@ -82,7 +82,7 @@
   {
     "id": 8,
     "rank": "9",
-    "points": "19",
+    "points": "27",
     "drivername": "Lewis Hamilton",
     "teamname": "Mercedes",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg",
@@ -90,24 +90,24 @@
     "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LEWHAM01.png"
   },
   {
-    "id": 9,
+    "id": 10,
     "rank": "10",
+    "points": "14",
+    "drivername": "Yuki Tsunoda",
+    "teamname": "RB",
+    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Japan.jpg",
+    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png",
+    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/YUKTSU01.png"
+  },
+  {
+    "id": 9,
+    "rank": "11",
     "points": "9",
     "drivername": "Lance Stroll",
     "teamname": "Aston Martin",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Canada.jpg",
     "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png",
     "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LANSTR01.png"
-  },
-  {
-    "id": 10,
-    "rank": "11",
-    "points": "8",
-    "drivername": "Yuki Tsunoda",
-    "teamname": "RB",
-    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Japan.jpg",
-    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png",
-    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/YUKTSU01.png"
   },
   {
     "id": 11,

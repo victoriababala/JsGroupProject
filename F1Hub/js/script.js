@@ -56,6 +56,7 @@
   ns.loadGame = function () {
     showLoading("#mainHome");
     load();
+    switchToActive("linkgame");
   };
   function load(){
     showLoadingGame("#mainHome");
@@ -80,7 +81,7 @@
         $ajaxUtils.sendGetRequest(
           teamHtml,
           function (teamCardHtml) {
-            switchToActive("LinkDrivers");
+            switchToActive("linkTeams");
             const teamsViewHtml = buildTeamsViewHtml(
               teams,
               teamsTitleHtml,
