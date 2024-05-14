@@ -83,7 +83,7 @@ body {
 
 }
 
-@media (min-width: 768px) and (max-width: 992px) { 
+@media (min-width: 767px) and (max-width: 992px) { 
   #abouttext, #aboutVtext{
     font-size: 25px;
   }
@@ -97,7 +97,7 @@ body {
 
 
 
-@media (min-width: 576px) and (max-width: 768px) { 
+@media (min-width: 576px) and (max-width: 767px) { 
   .text-black{
     font-size:10px;
   }
@@ -109,5 +109,5 @@ body {
 
 @media (min-width: 576px)  { 
   
-  
+
  }
