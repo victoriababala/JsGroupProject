@@ -59,13 +59,20 @@ h1 {
 }
 
 @media (min-width: 768px) and (max-width: 992px) { 
-  
+  .teamsdrivername{
+    color: blue;
+  }
 }
 
 
 
 @media (min-width: 576px) and (max-width: 768px) { 
-  
+  .text-black{
+    font-size:10px;
+  }
+  .teamsdrivername{
+    font-size:15px;
+  }
  }
 
 
