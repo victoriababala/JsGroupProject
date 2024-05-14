@@ -236,4 +236,11 @@
 
 }
 
+@media (max-width: 576px)  { 
+  .trap {
+    transform: scale(0.5)
+}
+
+}
+
 
