@@ -31,6 +31,13 @@ body {
   max-height: 20px;
   margin-left: 5px
 }
+.driveritemtext{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 .helmetimage{
   max-height: 150px;
 }
