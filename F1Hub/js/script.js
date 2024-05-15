@@ -55,13 +55,10 @@
   };
   ns.loadGame = function () {
     showLoading("#mainHome");
-    load();
-    switchToActive("linkgame");
-  };
-  function load(){
     showLoadingGame("#mainHome");
     GameLoad.load();
-  }
+    switchToActive("linkgame");
+  };
   ns.loadHome = function () {
     showLoading("#mainHome");
     $ajaxUtils.sendGetRequest(
