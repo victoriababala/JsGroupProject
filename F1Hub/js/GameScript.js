@@ -201,10 +201,10 @@ GameLoad.load = function () {
 
   // sensitivity listeners
   decreasePlayerSensitivity.addEventListener("click", () => {
-    PLAYER_SENSITIVITY = PLAYER_SENSITIVITY * 0.5;
+    PLAYER_SENSITIVITY *= 0.5;
   });
   increasePlayerSensitivity.addEventListener("click", () => {
-    PLAYER_SENSITIVITY = PLAYER_SENSITIVITY * 3;
+    PLAYER_SENSITIVITY *= 3;
   });
 
   // generates background
