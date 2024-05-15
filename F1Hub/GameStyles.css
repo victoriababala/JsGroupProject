@@ -49,6 +49,7 @@
     top: 70%;
     left: 50%;
     content: url('img/GameImages/f1.2.car.png');
+    transform: scale(0.8)
 }
 
 .gold {
@@ -159,10 +160,12 @@
     cursor: pointer;
     transition: all 0.3s ease;
     margin: 80px;
+    margin-bottom: 60px;
 
     
 
   }
+
 
   #navigation-box {
   color:rgb(137, 0, 0);

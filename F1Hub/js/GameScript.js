@@ -157,7 +157,6 @@ GameLoad.load = function () {
   controlsContainer.appendChild(rightButton);
   controlsContainer.appendChild(upButton);
   controlsContainer.appendChild(downButton);
-  pauseButton.style.marginBottom = "60px";
   app.appendChild(controlsContainer);
   app.appendChild(pauseButton);
 
@@ -321,7 +320,7 @@ playGame.innerHTML = "play";
 bestScore = bestScore < game.score ? game.score : bestScore;
 setCookie("bestScore", bestScore);
 setCookie("gamesPlayed", ++gamesPlayed);
-
+pauseButton.textContent = "|>";
     openMenu();
   }
 
@@ -331,6 +330,7 @@ gamesPlayedDiv.innerHTML = gamesPlayed;
 outerMenu.style.display = "flex";
 game.isPaused = true;
 app.style.animationPlayState = "paused"; 
+pauseButton.textContent = "|>";
 }
 
 
@@ -339,6 +339,7 @@ outerMenu.style.display = "none";
 game.isPaused = false;
 app.style.animationPlayState = "running";
 menuTitle.innerHTML = "Racing game";
+pauseButton.textContent = "||";
 }
 
 
@@ -401,7 +402,6 @@ menuTitle.innerHTML = "Racing game";
     let innerMenu = document.createElement("div");
     navigationBoxText.id = "navigation-box";
     scoreCounter.innerHTML = `0 x `;
-
     playGame.innerHTML = "Play";
     menuTitle.innerHTML = "Racing game";
     decreasePlayerSensitivity.innerHTML = " x0.5 ";
@@ -417,9 +417,9 @@ menuTitle.innerHTML = "Racing game";
     scoreBoard.style.marginBottom = "20px";
     navigationBoxText.innerHTML = "  Use The WASD Keys For Car Control.";
     navigationBoxText.style.marginBottom = "20px";
-
     gamesPlayedDiv.style.marginBottom = "20px";
     personalBestDiv.style.marginBottom = "20px";
+
     scoreBoard.classList.add("score");
     goldPhoto.classList.add("gold");
     goldPhoto.classList.add("gold-counter");
