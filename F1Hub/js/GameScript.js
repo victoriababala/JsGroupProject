@@ -104,7 +104,7 @@ GameLoad.load = function () {
   const app = document.querySelector("#app");
   const map = document.querySelector("#map");
   const scoreBoard = document.createElement("div");
-  const scoreCounter = document.createElement("span");
+  const scoreCounter = document.createElement("div");
   const player = document.createElement("div");
   const outerMenu = document.createElement("div");
   const menu = document.createElement("div");
@@ -390,7 +390,7 @@ pauseButton.textContent = "||";
   }
 
   function initialHtmlSetUp() {
-    let goldPhoto = document.createElement("span");
+    let goldPhoto = document.createElement("div");
     let sensitivityBox = document.createElement("div");
     let menuLeftBox = document.createElement("div");
     let menuRightBox = document.createElement("div");
@@ -414,7 +414,7 @@ pauseButton.textContent = "||";
     sensitivityBoxText.style.marginBottom = "20px";
     decreasePlayerSensitivity.style.marginBottom = "20px";
     increasePlayerSensitivity.style.marginBottom = "20px";
-    scoreBoard.style.marginBottom = "20px";
+    // scoreBoard.style.marginBottom = "20px";
     navigationBoxText.innerHTML = "  Use The WASD Keys For Car Control.";
     navigationBoxText.style.marginBottom = "20px";
     gamesPlayedDiv.style.marginBottom = "20px";
