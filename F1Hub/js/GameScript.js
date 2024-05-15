@@ -314,31 +314,33 @@ GameLoad.load = function () {
     );
   }
 
-  function endGame() {
-    game.isOver = true;
-    menuTitle.innerHTML = "Game over";
-    playGame.innerHTML = "play";
-    bestScore = bestScore < game.score ? game.score : bestScore;
-    setCookie("bestScore", bestScore);
-    setCookie("gamesPlayed", ++gamesPlayed);
+function endGame() {
+game.isOver = true;
+menuTitle.innerHTML = "Game over";
+playGame.innerHTML = "play";
+bestScore = bestScore < game.score ? game.score : bestScore;
+setCookie("bestScore", bestScore);
+setCookie("gamesPlayed", ++gamesPlayed);
 
     openMenu();
   }
 
-  function openMenu() {
-    personalBestDiv.innerHTML = bestScore;
-    gamesPlayedDiv.innerHTML = gamesPlayed;
-    outerMenu.style.display = "flex";
-    game.isPaused = true;
-    app.style.animationPlayState = "paused";
-  }
+function openMenu() {
+personalBestDiv.innerHTML = bestScore;
+gamesPlayedDiv.innerHTML = gamesPlayed;
+outerMenu.style.display = "flex";
+game.isPaused = true;
+app.style.animationPlayState = "paused"; 
+}
 
-  function closeMenu() {
-    outerMenu.style.display = "none";
-    game.isPaused = false;
-    app.style.animationPlayState = "running";
-    menuTitle.innerHTML = "Racing game";
-  }
+
+function closeMenu() {
+outerMenu.style.display = "none";
+game.isPaused = false;
+app.style.animationPlayState = "running";
+menuTitle.innerHTML = "Racing game";
+}
+
 
   function playerPositionSetUp() {
     player.style.width =

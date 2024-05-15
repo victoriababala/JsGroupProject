@@ -48,34 +48,67 @@ body {
   max-height: 400px;
   object-fit: cover;
 }
-
-h1 {
-  font-size: calc(1.5rem + 3vw);
+.nametext{
+  font-size: 40px;
 }
+@media (min-width: 1200px)  { 
 
-
-@media (min-width: 992px) and (max-width: 1200px) { 
+  .numberlogo{
+    max-height: 40px;
+    
+  }
+  .team-info{
+    margin-top: 30px;
+    margin-left: auto;
+  }
   
 }
 
-@media (min-width: 768px) and (max-width: 992px) { 
-  .teamsdrivername{
-    color: blue;
+@media (min-width: 992px) and (max-width: 1200px) { 
+  #abouttext{
+    font-size: 23px;
   }
+
+  #aboutVtext{
+    font-size: 23px;
+  
+  }
+  #abouttext2{
+    font-size: 26px;
+  }
+
+  #aboutVtext2{
+    font-size: 23px;
+  }
+
+}
+
+@media (min-width: 767px) and (max-width: 992px) { 
+  #abouttext, #aboutVtext{
+    font-size: 25px;
+  }
+
+  #abouttext2, #aboutVtext2{
+    font-size: 26px;
+  }
+  .teamsdrivername{
+    font-size: 17px;
 }
 
 
 
-@media (min-width: 576px) and (max-width: 768px) { 
+@media (min-width: 576px) and (max-width: 767px) { 
   .text-black{
     font-size:10px;
   }
   .teamsdrivername{
-    font-size:15px;
+    font-size:25px;
   }
  }
 
 
 @media (min-width: 576px)  { 
   
+
  }
+}
