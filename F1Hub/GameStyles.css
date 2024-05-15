@@ -249,7 +249,7 @@
 
 @media (max-width: 576px)  { 
   .trap {
-    transform: scale(0.7)
+    transform: scale(0.5)
 }
 #player {
   width: 60px;
