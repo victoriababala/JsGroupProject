@@ -2,7 +2,7 @@
   {
     "id": 0,
     "rank": "1",
-    "points": "136",
+    "points": "277",
     "drivername": "Max Verstappen",
     "teamname": "Red Bull Racing",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Netherlands.jpg",
@@ -12,17 +12,17 @@
   {
     "id": 1,
     "rank": "2",
-    "points": "103",
-    "drivername": "Sergio Perez",
-    "teamname": "Red Bull Racing",
-    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Mexico.jpg",
-    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png",
-    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/SERPER01.png"
+    "points": "199",
+    "drivername": "Lando Norris",
+    "teamname": "McLaren",
+    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg",
+    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png",
+    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LANNOR01.png"
   },
   {
     "id": 2,
     "rank": "3",
-    "points": "98",
+    "points": "177",
     "drivername": "Charles Leclerc",
     "teamname": "Ferrari",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Monaco.jpg",
@@ -32,27 +32,7 @@
   {
     "id": 3,
     "rank": "4",
-    "points": "83",
-    "drivername": "Carlos Sainz",
-    "teamname": "Ferrari",
-    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Spain.jpg",
-    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png",
-    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/CARSAI01.png"
-  },
-  {
-    "id": 4,
-    "rank": "5",
-    "points": "83",
-    "drivername": "Lando Norris",
-    "teamname": "McLaren",
-    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg",
-    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png",
-    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LANNOR01.png"
-  },
-  {
-    "id": 5,
-    "rank": "6",
-    "points": "41",
+    "points": "167",
     "drivername": "Oscar Piastri",
     "teamname": "McLaren",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Australia.jpg",
@@ -60,29 +40,19 @@
     "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/OSCPIA01.png"
   },
   {
-    "id": 6,
-    "rank": "7",
-    "points": "37",
-    "drivername": "George Russell",
-    "teamname": "Mercedes",
-    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg",
-    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png",
-    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/GEORUS01.png"
-  },
-  {
-    "id": 7,
-    "rank": "8",
-    "points": "33",
-    "drivername": "Fernando Alonso",
-    "teamname": "Aston Martin",
+    "id": 4,
+    "rank": "5",
+    "points": "162",
+    "drivername": "Carlos Sainz",
+    "teamname": "Ferrari",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Spain.jpg",
-    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png",
-    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/FERALO01.png"
+    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png",
+    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/CARSAI01.png"
   },
   {
-    "id": 8,
-    "rank": "9",
-    "points": "27",
+    "id": 5,
+    "rank": "6",
+    "points": "150",
     "drivername": "Lewis Hamilton",
     "teamname": "Mercedes",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg",
@@ -90,19 +60,39 @@
     "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LEWHAM01.png"
   },
   {
-    "id": 10,
-    "rank": "10",
-    "points": "14",
-    "drivername": "Yuki Tsunoda",
-    "teamname": "RB",
-    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Japan.jpg",
-    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png",
-    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/YUKTSU01.png"
+    "id": 6,
+    "rank": "7",
+    "points": "131",
+    "drivername": "Sergio Perez",
+    "teamname": "Red Bull Racing",
+    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Mexico.jpg",
+    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png",
+    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/SERPER01.png"
+  },
+  {
+    "id": 7,
+    "rank": "8",
+    "points": "116",
+    "drivername": "George Russell",
+    "teamname": "Mercedes",
+    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg",
+    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png",
+    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/GEORUS01.png"
+  },
+  {
+    "id": 8,
+    "rank": "9",
+    "points": "49",
+    "drivername": "Fernando Alonso",
+    "teamname": "Aston Martin",
+    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Spain.jpg",
+    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png",
+    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/FERALO01.png"
   },
   {
     "id": 9,
-    "rank": "11",
-    "points": "9",
+    "rank": "10",
+    "points": "24",
     "drivername": "Lance Stroll",
     "teamname": "Aston Martin",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Canada.jpg",
@@ -110,8 +100,38 @@
     "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LANSTR01.png"
   },
   {
+    "id": 10,
+    "rank": "11",
+    "points": "22",
+    "drivername": "Nico Hulkenberg",
+    "teamname": "Haas",
+    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Germany.jpg",
+    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png",
+    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/NICHUL01.png"
+  },
+  {
     "id": 11,
     "rank": "12",
+    "points": "22",
+    "drivername": "Yuki Tsunoda",
+    "teamname": "RB",
+    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Japan.jpg",
+    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png",
+    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/YUKTSU01.png"
+  },
+  {
+    "id": 12,
+    "rank": "13",
+    "points": "12",
+    "drivername": "Daniel Ricciardo",
+    "teamname": "RB",
+    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Australia.jpg",
+    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/D/DANRIC01_Daniel_Ricciardo/danric01.png",
+    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/DANRIC01.png"
+  },
+  {
+    "id": 13,
+    "rank": "14",
     "points": "6",
     "drivername": "Oliver Bearman",
     "teamname": "Ferrari",
@@ -120,29 +140,19 @@
     "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/OLIBEA01.png"
   },
   {
-    "id": 12,
-    "rank": "13",
-    "points": "6",
-    "drivername": "Nico Hulkenberg",
-    "teamname": "Haas",
-    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Germany.jpg",
-    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png",
-    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/NICHUL01.png"
-  },
-  {
-    "id": 13,
-    "rank": "14",
-    "points": "5",
-    "drivername": "Daniel Ricciardo",
-    "teamname": "RB",
-    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Australia.jpg",
-    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/D/DANRIC01_Daniel_Ricciardo/danric01.png",
-    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/DANRIC01.png"
-  },
-  {
     "id": 14,
     "rank": "15",
-    "points": "1",
+    "points": "6",
+    "drivername": "Pierre Gasly",
+    "teamname": "Alpine",
+    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/France.jpg",
+    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png",
+    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/PIEGAS01.png"
+  },
+  {
+    "id": 15,
+    "rank": "16",
+    "points": "5",
     "drivername": "Kevin Magnussen",
     "teamname": "Haas",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Denmark.jpg",
@@ -150,19 +160,9 @@
     "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/KEVMAG01.png"
   },
   {
-    "id": 15,
-    "rank": "16",
-    "points": "0",
-    "drivername": "Alexander Albon",
-    "teamname": "Williams",
-    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Thailand.jpg",
-    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png",
-    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/ALEALB01.png"
-  },
-  {
     "id": 16,
     "rank": "17",
-    "points": "0",
+    "points": "5",
     "drivername": "Esteban Ocon",
     "teamname": "Alpine",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/France.jpg",
@@ -172,41 +172,41 @@
   {
     "id": 17,
     "rank": "18",
-    "points": "0",
-    "drivername": "Zhou Guanyu",
-    "teamname": "Kick Zauber",
-    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/China.jpg",
-    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GUAZHO01_Guanyu_Zhou/guazho01.png",
-    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/GUAZHO01.png"
+    "points": "4",
+    "drivername": "Alexander Albon",
+    "teamname": "Williams",
+    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Thailand.jpg",
+    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png",
+    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/ALEALB01.png"
   },
   {
     "id": 18,
     "rank": "19",
     "points": "0",
-    "drivername": "Pierre Gasly",
-    "teamname": "Alpine",
-    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/France.jpg",
-    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png",
-    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/PIEGAS01.png"
+    "drivername": "Zhou Guanyu",
+    "teamname": "Kick Sauber",
+    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/China.jpg",
+    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/ZHOGLU01_Guanyu_Zhou/zhoglu01.png",
+    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/ZHOGLU01.png"
   },
   {
     "id": 19,
     "rank": "20",
-    "points": "0",
-    "drivername": "Valtteri Bottas",
-    "teamname": "Kick Zauber",
-    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Finland.jpg",
-    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/V/VALBOT01_Valtteri_Bottas/valbot01.png",
-    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/VALBOT01.png"
-  },
-  {
-    "id": 20,
-    "rank": "21",
     "points": "0",
     "drivername": "Logan Sargeant",
     "teamname": "Williams",
     "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20States.jpg",
     "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LOGSAR01_Logan_Sargeant/logsar01.png",
     "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/LOGSAR01.png"
+  },
+  {
+    "id": 20,
+    "rank": "21",
+    "points": "0",
+    "drivername": "Valtteri Bottas",
+    "teamname": "Kick Sauber",
+    "countryflag": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Finland.jpg",
+    "driverimage": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/V/VALBOT01_Valtteri_Bottas/valbot01.png",
+    "numberlogo": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/2018-redesign-assets/drivers/number-logos/VALBOT01.png"
   }
 ]
