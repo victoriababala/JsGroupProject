@@ -2,7 +2,7 @@
   {
     "id": 0,
     "rank": "1",
-    "points": "239",
+    "points": "408",
     "color": "#3671C6",
     "name": "Red Bull Racing",
     "logosmall": "https://media.formula1.com/content/dam/fom-website/teams/2024/red-bull-racing-logo.png.transform/2col/image.png",
@@ -11,25 +11,25 @@
   {
     "id": 1,
     "rank": "2",
-    "points": "187",
-    "color": "#E80020",
-    "name": "Ferrari",
-    "logosmall": "https://media.formula1.com/content/dam/fom-website/teams/2024/ferrari-logo.png.transform/2col/image.png",
-    "carimage": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/ferrari.png.transform/4col/image.png"
-  },
-  {
-    "id": 2,
-    "rank": "3",
-    "points": "124",
+    "points": "366",
     "color": "#FF8000",
     "name": "McLaren",
     "logosmall": "https://media.formula1.com/content/dam/fom-website/teams/2024/mclaren-logo.png.transform/2col/image.png",
     "carimage": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/mclaren.png.transform/4col/image.png"
   },
   {
+    "id": 2,
+    "rank": "3",
+    "points": "345",
+    "color": "#E80020",
+    "name": "Ferrari",
+    "logosmall": "https://media.formula1.com/content/dam/fom-website/teams/2024/ferrari-logo.png.transform/2col/image.png",
+    "carimage": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/ferrari.png.transform/4col/image.png"
+  },
+  {
     "id": 3,
     "rank": "4",
-    "points": "64",
+    "points": "266",
     "color": "#27F4D2",
     "name": "Mercedes",
     "logosmall": "https://media.formula1.com/content/dam/fom-website/teams/2024/mercedes-logo.png.transform/2col/image.png",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "rank": "5",
-    "points": "42",
+    "points": "73",
     "color": "#229971",
     "name": "Aston Martin",
     "logosmall": "https://media.formula1.com/content/dam/fom-website/teams/2024/aston-martin-logo.png.transform/2col/image.png",
@@ -47,7 +47,7 @@
   {
     "id": 5,
     "rank": "6",
-    "points": "19",
+    "points": "34",
     "color": "#6692FF",
     "name": "RB",
     "logosmall": "https://media.formula1.com/content/dam/fom-website/teams/2024/rb-logo.png.transform/2col/image.png",
@@ -56,7 +56,7 @@
   {
     "id": 6,
     "rank": "7",
-    "points": "7",
+    "points": "27",
     "color": "#B6BABD",
     "name": "Haas",
     "logosmall": "https://media.formula1.com/content/dam/fom-website/teams/2024/haas-logo.png.transform/2col/image.png",
@@ -65,7 +65,7 @@
   {
     "id": 7,
     "rank": "8",
-    "points": "1",
+    "points": "11",
     "color": "#0093CC",
     "name": "Alpine",
     "logosmall": "https://media.formula1.com/content/dam/fom-website/teams/2024/alpine-logo.png.transform/2col/image.png",
@@ -74,7 +74,7 @@
   {
     "id": 8,
     "rank": "9",
-    "points": "0",
+    "points": "4",
     "color": "#64C4FF",
     "name": "Williams",
     "logosmall": "https://media.formula1.com/content/dam/fom-website/teams/2024/williams-logo.png.transform/2col/image.png",
